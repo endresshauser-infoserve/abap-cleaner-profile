@@ -320,7 +320,7 @@
       "settingCount": 4,
       "settings": {
         "NegationStyle": "1",
-        "AllowCheckAfterCheckpoints": "0",
+        "AllowCheckAfterCheckpoints": "1",
         "KeepCondition": "2",
         "ConvertAbapFalseAndAbapTrue": "1"
       }
