@@ -1,6 +1,6 @@
 {
   "requiredVersion": 1,
-  "programVersion": 22,
+  "programVersion": 23,
   "ruleCount": 60,
   "autoActivateNewFeatures": false,
   "rules": [
@@ -317,9 +317,10 @@
     {
       "ruleID": "CHECK_OUTSIDE_LOOP",
       "isActive": true,
-      "settingCount": 3,
+      "settingCount": 4,
       "settings": {
         "NegationStyle": "1",
+        "AllowCheckAfterCheckpoints": "0",
         "KeepCondition": "2",
         "ConvertAbapFalseAndAbapTrue": "1"
       }
@@ -523,7 +524,7 @@
         "AlignChainAction": "0",
         "AlignAcrossEmptyLines": "1",
         "AlignStructureAction": "0",
-        "MaxLineLength": "150",
+        "MaxLineLength": "120",
         "AlignAcrossCommentLines": "1"
       }
     },
@@ -563,7 +564,7 @@
         "KeepParametersOnSingleLine": "0",
         "MaxParamCountBehindProceduralCall": "0",
         "PutProceduralCallKeywordsOnOwnLine": "1",
-        "MaxLineLength": "110",
+        "MaxLineLength": "116",
         "MaxParamCountBehindFunctionalCall": "100",
         "AlignAssignments": "1",
         "AllowContentLeftOfAssignOp": "1",
@@ -583,7 +584,7 @@
         "AlignWhereWithBoolOps": "0",
         "AlignCheckWithBoolOps": "0",
         "AlignElseIfWithBoolOps": "0",
-        "OnlyAlignSameObjects": "0"
+        "OnlyAlignSameObjects": "1"
       }
     },
     {
