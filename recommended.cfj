@@ -101,7 +101,7 @@
     },
     {
       "ruleID": "NEEDLESS_CLEAR",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 3,
       "settings": {
         "ActionAtEnd": "1",
