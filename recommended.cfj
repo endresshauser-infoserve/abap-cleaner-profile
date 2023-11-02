@@ -44,11 +44,11 @@
       "settingCount": 6,
       "settings": {
         "SeparateFromCharLiterals": "1",
-        "SeparateFromComments": "0",
-        "SeparateFromOperators": "0",
+        "SeparateFromComments": "1",
+        "SeparateFromOperators": "1",
         "RemoveMultiSpaceIfEmpty": "1",
         "SeparateCondensedCases": "1",
-        "SeparateFromKeywords": "0"
+        "SeparateFromKeywords": "1"
       }
     },
     {
