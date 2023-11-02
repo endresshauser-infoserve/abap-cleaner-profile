@@ -660,7 +660,7 @@
     },
     {
       "ruleID": "ALIGN_PERFORM",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 6,
       "settings": {
         "BreakAfterAdditions": "0",
@@ -668,7 +668,7 @@
         "ContinueAfterParamGroupKeyword": "1",
         "ParamCountAfterPerform": "3",
         "MaxLineLength": "120",
-        "AlignWithFormName": "0"
+        "AlignWithFormName": "1"
       }
     }
   ]
