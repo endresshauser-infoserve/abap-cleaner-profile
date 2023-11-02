@@ -168,7 +168,7 @@
     },
     {
       "ruleID": "CLASS_DEFINITION",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 14,
       "settings": {
         "NewLineForPublic": "1",
