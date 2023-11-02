@@ -173,10 +173,10 @@
       "settings": {
         "NewLineForPublic": "1",
         "NewLineForBehavior": "1",
-        "NewLineForAbstractOrFinal": "0",
+        "NewLineForAbstractOrFinal": "1",
         "NewLineForLocalFriends": "0",
         "MaxLineLength": "120",
-        "NewLineForRiskAndDuration": "0",
+        "NewLineForRiskAndDuration": "1",
         "NewLineForFriends": "1",
         "NewLineForTesting": "1",
         "NewLineForCreate": "1",
