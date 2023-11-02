@@ -1,7 +1,7 @@
 {
   "requiredVersion": 1,
-  "programVersion": 23,
-  "ruleCount": 60,
+  "programVersion": 24,
+  "ruleCount": 64,
   "autoActivateNewFeatures": false,
   "rules": [
     {
@@ -41,11 +41,14 @@
     {
       "ruleID": "SPACES_IN_EMPTY_BRACKETS",
       "isActive": true,
-      "settingCount": 3,
+      "settingCount": 6,
       "settings": {
         "SeparateFromCharLiterals": "1",
+        "SeparateFromComments": "1",
+        "SeparateFromOperators": "1",
         "RemoveMultiSpaceIfEmpty": "1",
-        "SeparateCondensedCases": "1"
+        "SeparateCondensedCases": "1",
+        "SeparateFromKeywords": "1"
       }
     },
     {
@@ -76,11 +79,12 @@
     {
       "ruleID": "NEEDLESS_SPACES",
       "isActive": true,
-      "settingCount": 3,
+      "settingCount": 4,
       "settings": {
         "ProcessLineEndComments": "0",
         "SearchAcrossCommentLines": "1",
-        "SearchAcrossEmptyLines": "1"
+        "SearchAcrossEmptyLines": "1",
+        "ProcessEmptyBrackets": "1"
       }
     },
     {
@@ -93,6 +97,16 @@
         "ExecuteOnLocalDeclarations": "1",
         "ExecuteOnInterfaces": "1",
         "ExecuteOnComplexCommands": "1"
+      }
+    },
+    {
+      "ruleID": "NEEDLESS_CLEAR",
+      "isActive": true,
+      "settingCount": 3,
+      "settings": {
+        "ActionAtEnd": "1",
+        "ActionAtStart": "0",
+        "KeepStrucBeforeAssign": "1"
       }
     },
     {
@@ -151,6 +165,27 @@
       "isActive": false,
       "settingCount": 0,
       "settings": {}
+    },
+    {
+      "ruleID": "CLASS_DEFINITION",
+      "isActive": true,
+      "settingCount": 14,
+      "settings": {
+        "NewLineForPublic": "1",
+        "NewLineForBehavior": "1",
+        "NewLineForAbstractOrFinal": "0",
+        "NewLineForLocalFriends": "0",
+        "MaxLineLength": "120",
+        "NewLineForRiskAndDuration": "0",
+        "NewLineForFriends": "1",
+        "NewLineForTesting": "1",
+        "NewLineForCreate": "1",
+        "NewLineForFriendNames": "1",
+        "IndentStyle": "0",
+        "NewLineForSharedMemory": "1",
+        "OneLinerAction": "2",
+        "NewLineForInheriting": "1"
+      }
     },
     {
       "ruleID": "ESCAPE_CHAR_FOR_PARAMS",
@@ -317,22 +352,24 @@
     {
       "ruleID": "CHECK_OUTSIDE_LOOP",
       "isActive": true,
-      "settingCount": 4,
+      "settingCount": 5,
       "settings": {
         "NegationStyle": "1",
         "AllowCheckAfterCheckpoints": "1",
         "KeepCondition": "2",
-        "ConvertAbapFalseAndAbapTrue": "1"
+        "ConvertAbapFalseAndAbapTrue": "1",
+        "ProcessChains": "1"
       }
     },
     {
       "ruleID": "CHECK_IN_LOOP",
       "isActive": true,
-      "settingCount": 3,
+      "settingCount": 4,
       "settings": {
         "NegationStyle": "1",
         "KeepCondition": "0",
-        "ConvertAbapFalseAndAbapTrue": "1"
+        "ConvertAbapFalseAndAbapTrue": "1",
+        "ProcessChains": "1"
       }
     },
     {
@@ -364,14 +401,18 @@
     {
       "ruleID": "CALL_METHOD",
       "isActive": true,
-      "settingCount": 0,
-      "settings": {}
+      "settingCount": 1,
+      "settings": {
+        "ProcessChains": "1"
+      }
     },
     {
       "ruleID": "CREATE_OBJECT",
       "isActive": true,
-      "settingCount": 0,
-      "settings": {}
+      "settingCount": 1,
+      "settings": {
+        "ProcessChains": "1"
+      }
     },
     {
       "ruleID": "RAISE_TYPE",
@@ -382,8 +423,9 @@
     {
       "ruleID": "ADD_TO_ETC",
       "isActive": true,
-      "settingCount": 1,
+      "settingCount": 2,
       "settings": {
+        "ProcessChains": "1",
         "AddToReplacementStyle": "1"
       }
     },
@@ -398,10 +440,11 @@
     {
       "ruleID": "TRANSLATE",
       "isActive": true,
-      "settingCount": 3,
+      "settingCount": 4,
       "settings": {
         "ReplaceTranslateToUpperLower": "1",
         "ReplaceUnevenMasks": "1",
+        "ProcessChains": "1",
         "ReplaceTranslateUsing": "1"
       }
     },
@@ -424,8 +467,9 @@
     {
       "ruleID": "ASSERT_CLASS",
       "isActive": false,
-      "settingCount": 1,
+      "settingCount": 2,
       "settings": {
+        "ProcessChains": "1",
         "AssertClassName": "cx_assert"
       }
     },
@@ -600,6 +644,31 @@
         "OneLinerStyle": "1",
         "ThenOnWhenLine": "0",
         "ValueInset": "1"
+      }
+    },
+    {
+      "ruleID": "ALIGN_FORM_DECLARATION",
+      "isActive": true,
+      "settingCount": 5,
+      "settings": {
+        "ContinueAfterParamGroupKeyword": "1",
+        "RemoveEmptyLine": "1",
+        "ParamCountBehindFormName": "3",
+        "AlignTypes": "1",
+        "AddEmptyLine": "1"
+      }
+    },
+    {
+      "ruleID": "ALIGN_PERFORM",
+      "isActive": true,
+      "settingCount": 6,
+      "settings": {
+        "BreakAfterAdditions": "0",
+        "ParamCountToCondense": "16",
+        "ContinueAfterParamGroupKeyword": "1",
+        "ParamCountAfterPerform": "3",
+        "MaxLineLength": "120",
+        "AlignWithFormName": "1"
       }
     }
   ]
