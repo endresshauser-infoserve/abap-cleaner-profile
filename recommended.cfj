@@ -648,7 +648,7 @@
     },
     {
       "ruleID": "ALIGN_FORM_DECLARATION",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 5,
       "settings": {
         "ContinueAfterParamGroupKeyword": "1",
