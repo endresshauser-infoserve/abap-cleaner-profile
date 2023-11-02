@@ -358,7 +358,7 @@
         "AllowCheckAfterCheckpoints": "1",
         "KeepCondition": "2",
         "ConvertAbapFalseAndAbapTrue": "1",
-        "ProcessChains": "0"
+        "ProcessChains": "1"
       }
     },
     {
@@ -369,7 +369,7 @@
         "NegationStyle": "1",
         "KeepCondition": "0",
         "ConvertAbapFalseAndAbapTrue": "1",
-        "ProcessChains": "0"
+        "ProcessChains": "1"
       }
     },
     {
@@ -403,7 +403,7 @@
       "isActive": true,
       "settingCount": 1,
       "settings": {
-        "ProcessChains": "0"
+        "ProcessChains": "1"
       }
     },
     {
@@ -411,7 +411,7 @@
       "isActive": true,
       "settingCount": 1,
       "settings": {
-        "ProcessChains": "0"
+        "ProcessChains": "1"
       }
     },
     {
@@ -425,7 +425,7 @@
       "isActive": true,
       "settingCount": 2,
       "settings": {
-        "ProcessChains": "0",
+        "ProcessChains": "1",
         "AddToReplacementStyle": "1"
       }
     },
@@ -444,7 +444,7 @@
       "settings": {
         "ReplaceTranslateToUpperLower": "1",
         "ReplaceUnevenMasks": "1",
-        "ProcessChains": "0",
+        "ProcessChains": "1",
         "ReplaceTranslateUsing": "1"
       }
     },
@@ -469,7 +469,7 @@
       "isActive": false,
       "settingCount": 2,
       "settings": {
-        "ProcessChains": "0",
+        "ProcessChains": "1",
         "AssertClassName": "cx_assert"
       }
     },
