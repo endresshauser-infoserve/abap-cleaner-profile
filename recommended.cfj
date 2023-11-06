@@ -315,12 +315,12 @@
     },
     {
       "ruleID": "NEEDLESS_PARENTHESES",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 4,
       "settings": {
         "RemoveOrParenthesisAnd": "0",
         "RemoveAroundSameOp": "0",
-        "RemoveAroundRelExpr": "0",
+        "RemoveAroundRelExpr": "1",
         "RemoveAroundAll": "1"
       }
     },
