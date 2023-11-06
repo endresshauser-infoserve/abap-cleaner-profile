@@ -1,7 +1,7 @@
 {
   "requiredVersion": 1,
   "programVersion": 24,
-  "ruleCount": 64,
+  "ruleCount": 66,
   "autoActivateNewFeatures": false,
   "rules": [
     {
@@ -90,12 +90,13 @@
     {
       "ruleID": "DECLARATION_CHAIN",
       "isActive": true,
-      "settingCount": 5,
+      "settingCount": 6,
       "settings": {
         "ExecuteOnClassDefinitionSections": "1",
         "ExecuteOnSimpleCommands": "1",
         "ExecuteOnLocalDeclarations": "1",
         "ExecuteOnInterfaces": "1",
+        "KeepTablesWithStructures": "0",
         "ExecuteOnComplexCommands": "1"
       }
     },
@@ -313,6 +314,17 @@
       }
     },
     {
+      "ruleID": "NEEDLESS_PARENTHESES",
+      "isActive": false,
+      "settingCount": 4,
+      "settings": {
+        "RemoveOrParenthesisAnd": "0",
+        "RemoveAroundSameOp": "0",
+        "RemoveAroundRelExpr": "0",
+        "RemoveAroundAll": "1"
+      }
+    },
+    {
       "ruleID": "EMPTY_COMMAND",
       "isActive": true,
       "settingCount": 0,
@@ -471,6 +483,17 @@
       "settings": {
         "ProcessChains": "1",
         "AssertClassName": "cx_assert"
+      }
+    },
+    {
+      "ruleID": "ASSERT_PARAMETER_ORDER",
+      "isActive": false,
+      "settingCount": 4,
+      "settings": {
+        "NumTextTableParamOrder": "0",
+        "ReturnCodeParamOrder": "0",
+        "ComparisonParamOrder": "0",
+        "AssertClassName": ""
       }
     },
     {
