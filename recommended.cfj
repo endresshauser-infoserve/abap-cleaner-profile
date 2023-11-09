@@ -538,13 +538,13 @@
       "settings": {
         "FillPercentageToJustifyOwnColumn": "40",
         "HandleOneLiners": "1",
-        "ContinueAfterKeyword": "1",
+        "ContinueAfterKeyword": "0",
         "SeparateWithEmptyLine": "1",
         "AlignAcrossEmptyLines": "1",
         "AlignConsecutive": "0",
         "ContinueAfterAccess": "2",
         "AlignAcrossCommentLines": "0",
-        "ContinueAfterMethodName": "1"
+        "ContinueAfterMethodName": "2"
       }
     },
     {
