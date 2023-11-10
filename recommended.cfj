@@ -631,7 +631,7 @@
         "KeepParametersOnSingleLine": "0",
         "MaxParamCountBehindProceduralCall": "0",
         "PutProceduralCallKeywordsOnOwnLine": "1",
-        "MaxLineLength": "116",
+        "MaxLineLength": "120",
         "MaxParamCountBehindFunctionalCall": "100",
         "AlignAssignments": "1",
         "AllowContentLeftOfAssignOp": "1",
