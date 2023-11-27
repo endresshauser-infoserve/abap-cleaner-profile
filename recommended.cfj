@@ -640,16 +640,16 @@
     },
     {
       "ruleID": "ALIGN_SELECT_FROM",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 7,
       "settings": {
         "AlignAsAcrossJoins": "0",
         "FirstTableNamePosition": "0",
-        "SelectJoinIndent": "1",
+        "SelectJoinIndent": "0",
         "AlignOnAcrossJoins": "0",
-        "SelectOnPosition": "0",
-        "FurtherTableNamePositions": "2",
-        "SelectClientPosition": "2"
+        "SelectOnPosition": "2",
+        "FurtherTableNamePositions": "0",
+        "SelectClientPosition": "3"
       }
     },
     {
