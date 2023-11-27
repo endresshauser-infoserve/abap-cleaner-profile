@@ -1,7 +1,7 @@
 {
   "requiredVersion": 1,
   "programVersion": 24,
-  "ruleCount": 66,
+  "ruleCount": 69,
   "autoActivateNewFeatures": false,
   "rules": [
     {
@@ -622,6 +622,55 @@
       }
     },
     {
+      "ruleID": "ALIGN_SELECT_CLAUSES",
+      "isActive": false,
+      "settingCount": 10,
+      "settings": {
+        "MaxSelectListLengthBeforeFrom": "30",
+        "NextSelectPos": "2",
+        "SelectUnionIntoIndent": "0",
+        "NewLineForFromWithJoins": "1",
+        "SelectUnionIndent": "0",
+        "SelectClauseIndent": "0",
+        "MaxLineLength": "120",
+        "SubQueryOneLinerAction": "1",
+        "MaxSelectListLengthBeforeInto": "30",
+        "MainQueryOneLinerAction": "1"
+      }
+    },
+    {
+      "ruleID": "ALIGN_SELECT_FROM",
+      "isActive": false,
+      "settingCount": 7,
+      "settings": {
+        "AlignAsAcrossJoins": "0",
+        "FirstTableNamePosition": "0",
+        "SelectJoinIndent": "1",
+        "AlignOnAcrossJoins": "0",
+        "SelectOnPosition": "0",
+        "FurtherTableNamePositions": "2",
+        "SelectClientPosition": "2"
+      }
+    },
+    {
+      "ruleID": "ALIGN_SELECT_LISTS",
+      "isActive": false,
+      "settingCount": 11,
+      "settings": {
+        "SimpleSelectListLayout": "2",
+        "SelectIntoLayout": "2",
+        "SimpleGroupByListLayout": "2",
+        "SimpleOrderByListLayout": "2",
+        "AlignAsInSelectList": "1",
+        "ComplexSelectListLayout": "0",
+        "ComplexGroupByListLayout": "0",
+        "ComplexOrderByListLayout": "0",
+        "ConsiderTildeAsComplex": "1",
+        "MaxLineLength": "120",
+        "AlignAdditionsInOrderByList": "0"
+      }
+    },
+    {
       "ruleID": "ALIGN_PARAMETERS",
       "isActive": true,
       "settingCount": 10,
@@ -641,17 +690,21 @@
     {
       "ruleID": "ALIGN_LOGICAL_EXPRESSIONS",
       "isActive": true,
-      "settingCount": 9,
+      "settingCount": 13,
       "settings": {
+        "AlignSqlWhenWithBoolOps": "0",
+        "AlignIfWithBoolOps": "0",
+        "AlignSqlOnWithBoolOps": "0",
+        "AlignCheckWithBoolOps": "0",
+        "AlignElseIfWithBoolOps": "0",
+        "AlignSqlHavingWithBoolOps": "0",
+        "OnlyAlignSameObjects": "1",
         "AlignUntilWithBoolOps": "0",
         "AlignWhileWithBoolOps": "0",
-        "AlignIfWithBoolOps": "0",
         "RightAlignComparisonOps": "1",
         "MaxInnerSpaces": "20",
         "AlignWhereWithBoolOps": "0",
-        "AlignCheckWithBoolOps": "0",
-        "AlignElseIfWithBoolOps": "0",
-        "OnlyAlignSameObjects": "1"
+        "AlignSqlWhereWithBoolOps": "0"
       }
     },
     {
