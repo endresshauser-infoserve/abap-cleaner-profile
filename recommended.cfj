@@ -623,10 +623,10 @@
     },
     {
       "ruleID": "ALIGN_SELECT_CLAUSES",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 10,
       "settings": {
-        "MaxSelectListLengthBeforeFrom": "30",
+        "MaxSelectListLengthBeforeFrom": "0",
         "NextSelectPos": "2",
         "SelectUnionIntoIndent": "0",
         "NewLineForFromWithJoins": "1",
@@ -634,7 +634,7 @@
         "SelectClauseIndent": "0",
         "MaxLineLength": "120",
         "SubQueryOneLinerAction": "1",
-        "MaxSelectListLengthBeforeInto": "30",
+        "MaxSelectListLengthBeforeInto": "0",
         "MainQueryOneLinerAction": "1"
       }
     },
