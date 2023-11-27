@@ -654,7 +654,7 @@
     },
     {
       "ruleID": "ALIGN_SELECT_LISTS",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 11,
       "settings": {
         "SimpleSelectListLayout": "2",
@@ -665,7 +665,7 @@
         "ComplexSelectListLayout": "0",
         "ComplexGroupByListLayout": "0",
         "ComplexOrderByListLayout": "0",
-        "ConsiderTildeAsComplex": "1",
+        "ConsiderTildeAsComplex": "0",
         "MaxLineLength": "120",
         "AlignAdditionsInOrderByList": "0"
       }
