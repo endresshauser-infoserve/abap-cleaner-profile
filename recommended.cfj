@@ -694,17 +694,17 @@
       "settings": {
         "AlignSqlWhenWithBoolOps": "0",
         "AlignIfWithBoolOps": "0",
-        "AlignSqlOnWithBoolOps": "0",
+        "AlignSqlOnWithBoolOps": "1",
         "AlignCheckWithBoolOps": "0",
         "AlignElseIfWithBoolOps": "0",
-        "AlignSqlHavingWithBoolOps": "0",
-        "OnlyAlignSameObjects": "1",
+        "AlignSqlHavingWithBoolOps": "2",
+        "OnlyAlignSameObjects": "0",
         "AlignUntilWithBoolOps": "0",
         "AlignWhileWithBoolOps": "0",
         "RightAlignComparisonOps": "1",
         "MaxInnerSpaces": "20",
         "AlignWhereWithBoolOps": "0",
-        "AlignSqlWhereWithBoolOps": "0"
+        "AlignSqlWhereWithBoolOps": "2"
       }
     },
     {
