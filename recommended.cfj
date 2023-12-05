@@ -631,7 +631,7 @@
         "SelectUnionIntoIndent": "0",
         "NewLineForFromWithJoins": "1",
         "SelectUnionIndent": "0",
-        "SelectClauseIndent": "1",
+        "SelectClauseIndent": "0",
         "MaxLineLength": "120",
         "SubQueryOneLinerAction": "1",
         "MaxSelectListLengthBeforeInto": "0",
