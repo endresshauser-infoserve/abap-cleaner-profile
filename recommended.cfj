@@ -703,7 +703,7 @@
         "AlignWhileWithBoolOps": "0",
         "RightAlignComparisonOps": "1",
         "MaxInnerSpaces": "20",
-        "AlignWhereWithBoolOps": "0",
+        "AlignWhereWithBoolOps": "2",
         "AlignSqlWhereWithBoolOps": "2"
       }
     },
