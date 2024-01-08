@@ -1,7 +1,7 @@
 {
   "requiredVersion": 1,
   "programVersion": 24,
-  "ruleCount": 69,
+  "ruleCount": 70,
   "autoActivateNewFeatures": false,
   "rules": [
     {
@@ -125,6 +125,19 @@
         "RearrangeChains": "1",
         "ConstantsOrder": "0",
         "ConsiderComments": "0"
+      }
+    },
+    {
+      "ruleID": "UNUSED_PARAMETERS",
+      "isActive": false,
+      "settingCount": 6,
+      "settings": {
+        "ChangingParamScope": "1",
+        "ImportingParamScope": "1",
+        "ReturningParamScope": "4",
+        "ExportingParamScope": "0",
+        "IgnoreEmptyMethods": "1",
+        "IgnoreExportingByValue": "1"
       }
     },
     {
@@ -581,13 +594,14 @@
     {
       "ruleID": "ALIGN_DECLARATIONS",
       "isActive": true,
-      "settingCount": 10,
+      "settingCount": 11,
       "settings": {
         "CondenseInnerSpaces": "1",
         "AlignNonChainsAction": "2",
         "FillPercentageToJustifyOwnColumn": "20",
         "ExecuteOnClassDefinitionSections": "1",
         "StructureAlignStyle": "1",
+        "AlignEnumAction": "1",
         "AlignChainAction": "0",
         "AlignAcrossEmptyLines": "1",
         "AlignStructureAction": "0",
@@ -673,12 +687,13 @@
     {
       "ruleID": "ALIGN_PARAMETERS",
       "isActive": true,
-      "settingCount": 10,
+      "settingCount": 11,
       "settings": {
         "AlignAcrossTableRows": "1",
         "PutFunctionalCallKeywordsOnOwnLine": "0",
         "KeepParametersOnSingleLine": "0",
         "MaxParamCountBehindProceduralCall": "0",
+        "KeepOtherOneLiners": "0",
         "PutProceduralCallKeywordsOnOwnLine": "1",
         "MaxLineLength": "120",
         "MaxParamCountBehindFunctionalCall": "100",
