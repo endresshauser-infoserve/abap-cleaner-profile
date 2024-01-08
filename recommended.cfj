@@ -129,12 +129,12 @@
     },
     {
       "ruleID": "UNUSED_PARAMETERS",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 6,
       "settings": {
         "ChangingParamScope": "1",
         "ImportingParamScope": "1",
-        "ReturningParamScope": "4",
+        "ReturningParamScope": "1",
         "ExportingParamScope": "0",
         "IgnoreEmptyMethods": "1",
         "IgnoreExportingByValue": "1"
