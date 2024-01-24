@@ -691,7 +691,7 @@
       "settings": {
         "AlignAcrossTableRows": "1",
         "PutFunctionalCallKeywordsOnOwnLine": "0",
-        "KeepParametersOnSingleLine": "0",
+        "KeepParametersOnSingleLine": "1",
         "MaxParamCountBehindProceduralCall": "0",
         "KeepOtherOneLiners": "0",
         "PutProceduralCallKeywordsOnOwnLine": "1",
@@ -699,7 +699,7 @@
         "MaxParamCountBehindFunctionalCall": "100",
         "AlignAssignments": "1",
         "AllowContentLeftOfAssignOp": "1",
-        "MaxLineLengthForSingleLine": "120"
+        "MaxLineLengthForSingleLine": "125"
       }
     },
     {
