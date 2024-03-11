@@ -475,7 +475,7 @@
     },
     {
       "ruleID": "DESCRIBE_TABLE",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 0,
       "settings": {}
     },
