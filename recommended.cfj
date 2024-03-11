@@ -481,7 +481,7 @@
     },
     {
       "ruleID": "READ_TABLE",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 4,
       "settings": {
         "ReplaceWithLineExists": "1",
