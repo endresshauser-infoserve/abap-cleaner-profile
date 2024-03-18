@@ -1,7 +1,7 @@
 {
   "requiredVersion": 1,
   "programVersion": 24,
-  "ruleCount": 70,
+  "ruleCount": 72,
   "autoActivateNewFeatures": false,
   "rules": [
     {
@@ -471,6 +471,23 @@
         "ReplaceUnevenMasks": "1",
         "ProcessChains": "1",
         "ReplaceTranslateUsing": "1"
+      }
+    },
+    {
+      "ruleID": "DESCRIBE_TABLE",
+      "isActive": true,
+      "settingCount": 0,
+      "settings": {}
+    },
+    {
+      "ruleID": "READ_TABLE",
+      "isActive": true,
+      "settingCount": 4,
+      "settings": {
+        "ReplaceWithLineExists": "1",
+        "ReplaceWithLineIndex": "1",
+        "ReplaceWithAssign": "1",
+        "UseComponentsKeyword": "0"
       }
     },
     {
