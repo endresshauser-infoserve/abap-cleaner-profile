@@ -486,7 +486,7 @@
     },
     {
       "ruleID": "CONDENSE",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 4,
       "settings": {
         "SpecifyFromForNoGaps": "1",
