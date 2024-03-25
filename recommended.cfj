@@ -328,7 +328,7 @@
     },
     {
       "ruleID": "STRING_TEMPLATE",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 4,
       "settings": {
         "AlwaysConvertLiterals": "1",
