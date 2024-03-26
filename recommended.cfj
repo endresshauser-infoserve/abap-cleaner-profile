@@ -565,7 +565,7 @@
     },
     {
       "ruleID": "CAMEL_CASE_NAME",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 7,
       "settings": {
         "MinLengthOfSureMatch": "11",
