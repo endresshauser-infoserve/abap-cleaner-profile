@@ -311,7 +311,7 @@
       "isActive": true,
       "settingCount": 3,
       "settings": {
-        "ReplaceObsoleteOperators": "0",
+        "ReplaceObsoleteOperators": "1",
         "PreferredOperatorSet": "0",
         "ReplaceRegularOperators": "1"
       }
