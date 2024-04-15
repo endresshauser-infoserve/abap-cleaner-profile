@@ -1,6 +1,6 @@
 {
   "requiredVersion": 1,
-  "programVersion": 24,
+  "programVersion": 25,
   "ruleCount": 75,
   "autoActivateNewFeatures": false,
   "rules": [
@@ -143,14 +143,15 @@
     {
       "ruleID": "UNUSED_VARIABLES",
       "isActive": true,
-      "settingCount": 6,
+      "settingCount": 7,
       "settings": {
         "MeasureForConstantsOnlyUsedInComment": "1",
         "MeasureForVarsNeverUsed": "3",
         "MeasureForAssignedVars": "0",
         "MeasureForConstantsNeverUsed": "1",
         "MeasureForVarsOnlyUsedInComment": "1",
-        "MeasureForAssignedVarsOnlyUsedInComment": "0"
+        "MeasureForAssignedVarsOnlyUsedInComment": "0",
+        "MeasureForVarsOnlyAssignedInMessageInto": "1"
       }
     },
     {
@@ -308,8 +309,12 @@
     {
       "ruleID": "COMPARISON_OPERATOR",
       "isActive": true,
-      "settingCount": 0,
-      "settings": {}
+      "settingCount": 3,
+      "settings": {
+        "ReplaceObsoleteOperators": "0",
+        "PreferredOperatorSet": "0",
+        "ReplaceRegularOperators": "1"
+      }
     },
     {
       "ruleID": "NOT_IS",
