@@ -151,7 +151,7 @@
         "MeasureForConstantsNeverUsed": "1",
         "MeasureForVarsOnlyUsedInComment": "1",
         "MeasureForAssignedVarsOnlyUsedInComment": "0",
-        "MeasureForVarsOnlyAssignedInMessageInto": "1"
+        "MeasureForVarsOnlyAssignedInMessageInto": "2"
       }
     },
     {
