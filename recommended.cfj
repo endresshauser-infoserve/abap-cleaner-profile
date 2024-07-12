@@ -1,6 +1,6 @@
 {
   "requiredVersion": 1,
-  "programVersion": 25,
+  "programVersion": 26,
   "ruleCount": 75,
   "autoActivateNewFeatures": false,
   "rules": [
@@ -60,8 +60,9 @@
     {
       "ruleID": "SPACE_BEFORE_PERIOD",
       "isActive": true,
-      "settingCount": 3,
+      "settingCount": 4,
       "settings": {
+        "MoveAcrossCommentLines": "0",
         "ExecuteOnClassDefinitionSections": "1",
         "ExecuteOnComma": "1",
         "ExecuteOnPeriod": "1"
@@ -334,10 +335,11 @@
     {
       "ruleID": "STRING_TEMPLATE",
       "isActive": true,
-      "settingCount": 4,
+      "settingCount": 5,
       "settings": {
         "AlwaysConvertLiterals": "1",
         "IgnoreMultiLineOperands": "1",
+        "RequireOperandsOnSameLine": "0",
         "KeepControlCharsSeparate": "1",
         "StringTemplateCondition": "1"
       }
@@ -481,9 +483,10 @@
     {
       "ruleID": "TRANSLATE",
       "isActive": false,
-      "settingCount": 4,
+      "settingCount": 5,
       "settings": {
         "ReplaceTranslateToUpperLower": "1",
+        "SkipUnknownTypes": "1",
         "ReplaceUnevenMasks": "1",
         "ProcessChains": "1",
         "ReplaceTranslateUsing": "1"
