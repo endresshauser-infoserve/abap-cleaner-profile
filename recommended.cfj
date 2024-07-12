@@ -482,7 +482,7 @@
     },
     {
       "ruleID": "TRANSLATE",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 5,
       "settings": {
         "ReplaceTranslateToUpperLower": "1",
