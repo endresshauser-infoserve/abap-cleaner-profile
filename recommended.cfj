@@ -62,7 +62,7 @@
       "isActive": true,
       "settingCount": 4,
       "settings": {
-        "MoveAcrossCommentLines": "0",
+        "MoveAcrossCommentLines": "1",
         "ExecuteOnClassDefinitionSections": "1",
         "ExecuteOnComma": "1",
         "ExecuteOnPeriod": "1"
