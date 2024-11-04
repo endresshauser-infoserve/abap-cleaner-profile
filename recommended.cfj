@@ -22,7 +22,7 @@
       "settings": {
         "EmptyLinesBetweenClasses": "2",
         "EmptyLinesBetweenClassAndMethod": "0",
-        "EmptyLinesBetweenMethods": "1"
+        "EmptyLinesBetweenMethods": "2"
       }
     },
     {
