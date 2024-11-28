@@ -509,11 +509,12 @@
     {
       "ruleID": "CONDENSE",
       "isActive": true,
-      "settingCount": 4,
+      "settingCount": 5,
       "settings": {
         "SpecifyFromForNoGaps": "1",
         "SpecifyValName": "0",
         "KeepParamsOnOneLine": "0",
+        "SkipUnknownTypes": "1",
         "SpecifyDel": "0"
       }
     },
