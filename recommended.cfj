@@ -1,7 +1,7 @@
 {
   "requiredVersion": 1,
   "programVersion": 26,
-  "ruleCount": 98,
+  "ruleCount": 100,
   "autoActivateNewFeatures": false,
   "rules": [
     {
@@ -49,6 +49,15 @@
         "EmptyLineBelowSelect": "1",
         "EmptyLineAboveSelect": "1",
         "MovePrepareMethods": "0"
+      }
+    },
+    {
+      "ruleID": "ONE_COMMAND_PER_LINE",
+      "isActive": false,
+      "settingCount": 2,
+      "settings": {
+        "KeepOneLinersAfterWhen": "1",
+        "KeepMultiLinersAfterWhen": "0"
       }
     },
     {
@@ -407,6 +416,15 @@
       "settings": {}
     },
     {
+      "ruleID": "EXIT_OUTSIDE_LOOP",
+      "isActive": false,
+      "settingCount": 2,
+      "settings": {
+        "ApplyToProcedures": "1",
+        "ApplyToEventBlocks": "1"
+      }
+    },
+    {
       "ruleID": "CHECK_OUTSIDE_LOOP",
       "isActive": true,
       "settingCount": 5,
@@ -718,9 +736,10 @@
     {
       "ruleID": "ALIGN_CLEAR_FREE_AND_SORT",
       "isActive": true,
-      "settingCount": 4,
+      "settingCount": 5,
       "settings": {
         "DistinctLineSort": "0",
+        "DistinctLineCatch": "2",
         "DistinctLineClear": "0",
         "DistinctLineFree": "0",
         "MaxLineLength": "120"
@@ -1085,11 +1104,12 @@
     {
       "ruleID": "DDL_ALIGN_DATA_SOURCES",
       "isActive": false,
-      "settingCount": 5,
+      "settingCount": 6,
       "settings": {
         "AlignDataSources": "1",
         "AlignAssociationsWithJoins": "0",
         "AlignOnConditions": "1",
+        "AlignAssociationTo": "0",
         "ConsiderAllParamAssignLines": "0",
         "AlignAliases": "1"
       }
