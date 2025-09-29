@@ -417,7 +417,7 @@
     },
     {
       "ruleID": "EXIT_OUTSIDE_LOOP",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 2,
       "settings": {
         "ApplyToProcedures": "1",
