@@ -53,7 +53,7 @@
     },
     {
       "ruleID": "ONE_COMMAND_PER_LINE",
-      "isActive": false,
+      "isActive": true,
       "settingCount": 2,
       "settings": {
         "KeepOneLinersAfterWhen": "1",
